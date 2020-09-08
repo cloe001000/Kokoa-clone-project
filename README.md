@@ -1,1 +1,3 @@
-#Kokoa Clone project
+# Kokoa Clone project
+
+Only HTML and CSS

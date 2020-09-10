@@ -8,7 +8,7 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>친구</title>
+    <title>설쩡</title>
   </head>
 
   <body>
@@ -27,72 +27,60 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">설정</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
 
-    <a class="friends-display-link">
-      <i class="fas fa-info-circle fa-lg"></i>Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
+    <main class="main-screen">
+      <ul class="setting-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column__info"></div>
+        </li>
 
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="C:\Project\kokoa-clone-project\Annotation 2020-09-10 054609.png"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">원재현</h4>
-            <h6 class="user-component__subtitle">
-              주소: 독일 펜실베이니아 서울2동
-            </h6>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Cocaine Lab</span>
           </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar--sm"
-              src="C:\Project\kokoa-clone-project\Design file\kakao.png"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title--not-bold">Channel</h4>
-            </div>
+          <div class="settings__setting-column__info"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
           </div>
-          <div class="user-component__column">
-            <div><span>2</span> <i class="fas fa-chevron-right fa-xs"></i></div>
-          </div>
-        </div>
-      </div>
+          <div class="settings__setting-column__info">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
-    <a class="side-logo__a" href="index.html">
+    <div class="side-logo__a" href="index.html">
       <img
-        class="side-logo__img"
+        class="side-logo__img side-logo__div"
         src="C:\Project\kokoa-clone-project\Design file\main-logo.png"
       />
-    </a>
+    </div>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="frends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">

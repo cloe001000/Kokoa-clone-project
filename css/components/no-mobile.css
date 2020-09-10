@@ -41,14 +41,14 @@
   font-size: 50px;
 }
 
-@media screen and (max-width: 1700px) {
-  #no-mobile-strong {
-    display: none;
-  }
+#no-mobile-strong {
+  display: none;
 }
 
-@media screen and (orientation: portrait) {
-  #no-mobile-mobile {
-    display: none;
-  }
+#no-mobile-mobile {
+  display: none;
+}
+
+#no-mobile-chatting {
+  display: none;
 }

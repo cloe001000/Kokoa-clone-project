@@ -1,132 +1,114 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="shortsut icon"
-      href="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Design%20file/originalLOGO_file.png?raw=true"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>친구</title>
-  </head>
 
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>Space Internet</span>
-        <i class="fas fa-satellite"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>17:24</span>
-      </div>
-      <div class="status-bar__column">
-        <span>2762%</span>
-        <i class="fas fa-battery-three-quarters fa-lg"></i>
-        <i class="fas fa-exclamation"></i>
-      </div>
+<head>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="shortsut icon"
+    href="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Design%20file/originalLOGO_file.png?raw=true" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>친구</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>Space Internet</span>
+      <i class="fas fa-satellite"></i>
     </div>
+    <div class="status-bar__column">
+      <span>17:24</span>
+    </div>
+    <div class="status-bar__column">
+      <span>2762%</span>
+      <i class="fas fa-battery-three-quarters fa-lg"></i>
+      <i class="fas fa-exclamation"></i>
+    </div>
+  </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+  <header class="screen-header">
+    <h1 class="screen-header__title">Friends</h1>
+    <div class="screen-header__icons">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+    </div>
+  </header>
+
+  <a class="friends-display-link">
+    <i class="fas fa-info-circle fa-lg"></i>Friends' Names Display
+    <i class="fas fa-chevron-right fa-xs"></i>
+  </a>
+
+  <main class="friends-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img class="user-component__avatar user-component__avatar--xl"
+          src="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Annotation%202020-09-10%20054609.png?raw=true" />
+        <div class="user-component__text">
+          <h4 class="user-component__title">원재현</h4>
+          <h6 class="user-component__subtitle">
+            주소: 독일 펜실베이니아 서울2동
+          </h6>
+        </div>
       </div>
-    </header>
-
-    <a class="friends-display-link">
-      <i class="fas fa-info-circle fa-lg"></i>Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+      <div class="user-component__column"></div>
+    </div>
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <span>Channel</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
       <div class="user-component">
         <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Annotation%202020-09-10%20054609.png?raw=true"
-          />
+          <img class="user-component__avatar user-component__avatar--sm"
+            src="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Design%20file/kakao.png?raw=true" />
           <div class="user-component__text">
-            <h4 class="user-component__title">원재현</h4>
-            <h6 class="user-component__subtitle">
-              주소: 독일 펜실베이니아 서울2동
-            </h6>
+            <h4 class="user-component__title--not-bold">Channel</h4>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar--sm"
-              src="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Design%20file/kakao.png?raw=true"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title--not-bold">Channel</h4>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <div><span>2</span> <i class="fas fa-chevron-right fa-xs"></i></div>
-          </div>
+        <div class="user-component__column">
+          <div><span>2</span> <i class="fas fa-chevron-right fa-xs"></i></div>
         </div>
       </div>
-    </main>
-
-    <a class="side-logo__a" href="index.html">
-      <img
-        class="side-logo__img"
-        src="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Design%20file/main-logo.png?raw=true"
-      />
-    </a>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="frends.html"
-            ><i class="fas fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification">1</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="hash.html"
-            ><i class="fas fa-hashtag fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><div class="nav__dot"></div>
-            <i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
-    <div id="no-mobile-mobile">
-      <span
-        >세로화면에 최적화 되어 있습니다.<br /><br />화면을 세로로
-        돌려주세요ㅠㅠ</span
-      >
     </div>
-    <div id="no-mobile-strong">
-      <span>화면 가로크기 줄여</span>
-    </div>
+  </main>
 
-    <script
-      src="https://kit.fontawesome.com/a24ab77c03.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <a class="side-logo__a" href="index.html">
+    <img class="side-logo__img"
+      src="https://github.com/cloe001000/kokoa-clone-project/blob/gh-pages/Design%20file/main-logo.png?raw=true" />
+  </a>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="frends.html"><i class="fas fa-user fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification">1</span>
+          <i class="far fa-comment fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="hash.html"><i class="fas fa-hashtag fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <div class="nav__dot"></div>
+          <i class="fas fa-ellipsis-h fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div id="no-mobile-mobile">
+    <span>세로화면에 최적화 되어 있습니다.<br /><br />화면을 세로로
+      돌려주세요ㅠㅠ <br><br>우측 하단 로고를 지속적으로 Hover하면..</span>
+  </div>
+  <div id="no-mobile-strong">
+    <span>화면 가로크기 줄여</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/a24ab77c03.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -27,28 +27,22 @@
 }
 
 #no-mobile-strong {
-  position: absolute;
-  z-index: 99;
-  height: 200vh;
-  background-color: black;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: 50vh;
-  top: 0;
-  color: red;
-  font-size: 50px;
-}
-
-#no-mobile-strong {
   display: none;
 }
 
-#no-mobile-mobile {
-  display: none;
-}
 
-#no-mobile-chatting {
-  display: none;
+
+
+@media screen and (orientation:portrait){
+  #no-mobile-strong {
+    display: none;
+  }
+  
+  #no-mobile-mobile {
+    display: none;
+  }
+  
+  #no-mobile-chatting {
+    display: none;
+  }
 }
